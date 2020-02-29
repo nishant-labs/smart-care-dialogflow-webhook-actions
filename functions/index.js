@@ -1,62 +1,128 @@
-const { dialogflow, SimpleResponse } = require('actions-on-google');
+const { dialogflow } = require('actions-on-google');
 const functions = require('firebase-functions');
+const { handleConversation } = require('./utils');
+const {
+	generalResponses,
+	simpleResponses,
+	questionResponses,
+	painResponses
+} = require('./responses');
 
 const app = dialogflow({ debug: true });
 
-let previousStatement = '';
-let previousResponse = '';
+let previousStatement = {
+	response: '',
+	params: undefined
+};
+let previousResponse = {
+	response: '',
+	params: undefined
+};
+const {
+	hospital,
+	accident,
+	accidentDispatch,
+	defaultResp,
+	errorMessage
+} = generalResponses;
+const {
+	policeEmergency,
+	lifeThreat,
+	houseGasEmergency,
+	houseFireEmergency,
+	emergency
+} = simpleResponses;
+const { elaborateMore, askWhenHelpAsked } = questionResponses;
+const { bodyPain, acheStomach, acheHead, stomachUpset, defaultMessage } = painResponses;
 
-app.intent('AskForHelp_Emergency', conversation => {
-	const { query } = conversation;
-	const userAsk = query.toLowerCase();
-	if (userAsk.indexOf('hospital') !== -1) {
-		conversation.ask(
-			'Of course, calling nearby hospital and also trying to arrange an ambulance'
-		);
+// id - 9a04bf66-dffd-4d40-bef4-2cb7427f49f9
+app.intent('AskForHelp_Emergency', (conversation, parameters) => {
+	const {
+		hasUsedAskedFor,
+		hasUsedAskedForAny,
+		queryLower
+	} = handleConversation(conversation);
+	if (hasUsedAskedForAny(['hospital', 'doctor'])) {
+		conversation.ask(hospital);
+	} else if (hasUsedAskedForAny(['emergency', 'police'])) {
+		conversation.ask(policeEmergency);
+	} else if (hasUsedAskedFor('kill')) {
+		conversation.ask(lifeThreat);
+	} else if (hasUsedAskedForAny(['accident', 'ambulance'])) {
+		conversation.ask(accident);
+		previousResponse.response = accident;
 	} else if (
-		userAsk.indexOf('emergency') !== -1 ||
-		userAsk.indexOf('police') !== -1
+		previousResponse.response === accident &&
+		hasUsedAskedForAny(['location', 'address'])
 	) {
 		conversation.ask(
-			new SimpleResponse({
-				speech: 'Of course, calling 111 to alert emergency services',
-				text: 'Calling 999 emergency services'
-			})
+			accidentDispatch.replace('$location', parameters.location)
 		);
-	} else if (userAsk.indexOf('kill') !== -1) {
-		conversation.ask(
-			new SimpleResponse({
-				speech:
-					'Hang on, calling 999 alerting emergency services and police station, in the mean time hide yourself somewhere safe',
-				text: 'Calling 999 emergency services'
-			})
-		);
-	} else if (userAsk.indexOf('accident') !== -1) {
-		const resp = 'In order to call emergency service I need your location';
-		if (previousResponse === resp && (userAsk.indexOf('location') !== -1 || userAsk.indexOf('address') !== -1)) {
-			conversation.ask('I am calling emergency service for you at $location');
-		} else {
-			conversation.ask(resp);
-		}
-		previousResponse = resp;
+	} else if (hasUsedAskedFor('stroke')) {
+		conversation.ask(defaultResp);
 	} else {
-		conversation.ask('Please elaborate more so that I can help you');
+		conversation.ask(defaultResp);
 	}
-	previousStatement = userAsk;
+	previousStatement.response = queryLower;
+	previousStatement.params = conversation.parameter;
 });
 
-app.intent('AskForHelp_General_QuestionAlreadySet', conversation => {
-	const { contexts, query } = conversation;
-	const questionContext = contexts.get('asking_for_help_general');
-	if (questionContext && questionContext.parameters.fullName) {
-		conversation.ask(
-			`What happened ${questionContext.parameters.fullName} ? could you please elaborate more!!`
-		);
+// - 383ca0a7-213f-40e1-ad18-3c6f62c55775
+app.intent('AskForHelp_Pain', (conversation, parameters) => {
+	const {
+		hasUsedAskedFor,
+		hasUsedAskedForAny,
+		queryLower
+	} = handleConversation(conversation);
+	if (
+		hasUsedAskedForAny(['pain', 'paining']) &&
+		hasUsedAskedForAny(['body', 'muscle', 'back'])
+	) {
+		conversation.ask(bodyPain);
+	} else if (
+		hasUsedAskedForAny(['ache', 'aching']) &&
+		hasUsedAskedFor('stomach')
+	) {
+		conversation.ask(acheStomach);
+	} else if (hasUsedAskedForAny(['abdominal', 'acidity'])) {
+		conversation.ask(acheStomach);
+	} else if (hasUsedAskedForAny(['head', 'headache'])) {
+		conversation.ask(acheHead);
+	} else if (hasUsedAskedForAny(['fever', 'temperature'])) {
+		conversation.ask(acheHead);
+	} else if (hasUsedAskedForAny(['stomach upset', 'loose motion'])) {
+		conversation.ask(stomachUpset);
+	} else if (
+		hasUsedAskedForAny(['nausea', 'vomit', 'pukish', 'puke', 'motion sickness'])
+	) {
+		conversation.ask(vomit);
 	} else {
-		conversation.ask(
-			'Of course, but can you answer some questions before I can help you. What is your name?'
-		);
+		conversation.ask(defaultMessage);
 	}
+	previousStatement.response = queryLower;
+	previousStatement.params = conversation.parameter;
+});
+
+// id - 123a898c-fa89-4cd7-8cae-7d2d03eec256
+app.intent('AskForHelp_HouseholdEmergency', (conversation, parameters) => {
+	const { hasUsedAskedFor, queryLower } = handleConversation(conversation);
+	if (hasUsedAskedFor('gas')) {
+		conversation.ask(houseGasEmergency);
+	} else if (hasUsedAskedFor('fire')) {
+		conversation.ask(houseFireEmergency);
+	} else {
+		conversation.ask(emergency);
+	}
+	previousStatement.response = queryLower;
+	previousStatement.params = conversation.parameter;
+});
+
+// id - 357c8d7c-848e-4eb5-a277-d71de15b4b38
+app.intent('AskForHelp_ExternalFitness', conversation => {
+	const { hasUsedAskedFor, queryLower } = handleConversation(conversation);
+	conversation.ask('<speak>Checking your google fit. <break time="500ms"/>It looks like your heart rate is too high, Please try to relax yourself and try to take a nap <break strength="weak"/>This will lower your blood pressure</speak>');
+	previousStatement.response = queryLower;
+	previousStatement.params = conversation.parameter;
 });
 
 app.intent('WelcomeQuestions', conversation => {
@@ -71,7 +137,7 @@ app.intent('WelcomeQuestions', conversation => {
 
 app.catch((conversation, error) => {
 	console.error(error);
-	conversation.ask('I encountered a glitch. Can you say that again?');
+	conversation.ask(errorMessage);
 });
 
 exports.yourAction = functions.https.onRequest(app);
