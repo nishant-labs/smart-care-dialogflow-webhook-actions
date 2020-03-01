@@ -1,0 +1,775 @@
+[
+  {
+    "id": "52fce97d-7c44-4a0a-a14c-080c3439a232",
+    "data": [
+      {
+        "text": "I have an emergency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d9fabecc-f155-470a-90b4-ded74538c282",
+    "data": [
+      {
+        "text": "There is an emergency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a7a0fb1d-5f15-45d0-b8b5-043e2a1a1eda",
+    "data": [
+      {
+        "text": "i need a doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "18b6e817-0984-4732-b2b0-44148fed7e8d",
+    "data": [
+      {
+        "text": "i need an ambulance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cec76206-ebbd-4121-980f-ee76857f7138",
+    "data": [
+      {
+        "text": "ambulance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ec6d83c9-b1c2-4d67-ad09-fdf3229453a9",
+    "data": [
+      {
+        "text": "call Ambulance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3d226e55-b4fc-4225-8866-7cad15952eb0",
+    "data": [
+      {
+        "text": "i am burning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3692f81e-c4e7-4fc8-9824-f6a758bf68e3",
+    "data": [
+      {
+        "text": "i am burned",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "97e387ab-76b8-4686-b411-5f5cb939ad57",
+    "data": [
+      {
+        "text": "having a stroke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae75d625-c4fe-411e-a125-5974105c0e81",
+    "data": [
+      {
+        "text": "I am not sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4e48df6-84ee-4ca3-8a48-2475e53d8a79",
+    "data": [
+      {
+        "text": "not sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3842d547-670b-4f1f-90a1-15efdd2ebc46",
+    "data": [
+      {
+        "text": "I don\u0027t know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "29c4c3db-319b-4384-89cc-decfc32d4450",
+    "data": [
+      {
+        "text": "very sick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "94499c1f-1ea6-4161-ae0c-1134b1f3f08f",
+    "data": [
+      {
+        "text": "Feeling sick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "423053b3-7123-48b8-8abb-1575526fd35c",
+    "data": [
+      {
+        "text": "Shortness of breath",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4bd13dba-3ae4-4a37-95a0-efc28c0f56a5",
+    "data": [
+      {
+        "text": "feeling lightheaded or dizzy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a405ea22-ea93-40de-93f9-5ea89d9e8e15",
+    "data": [
+      {
+        "text": "i am having severe Chest pain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0d7abff-f587-4cbe-8bd2-7ae4b32a9fb5",
+    "data": [
+      {
+        "text": "severe Chest pain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b95f3737-1ca6-41cd-96ee-1f02621a60f7",
+    "data": [
+      {
+        "text": "having severe Chest pain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8683b8bd-6507-48f0-826d-1b3e1be8699f",
+    "data": [
+      {
+        "text": "got a Heart attack",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42d3f17c-a872-4049-a5fb-880dbf7d15c4",
+    "data": [
+      {
+        "text": "Heart attack",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ba5a8b59-5c7d-4497-8675-416f4791a97f",
+    "data": [
+      {
+        "text": "i am having  a Heart attack",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a4fda144-7cb6-4062-ad8c-84fdff9a40f9",
+    "data": [
+      {
+        "text": "i am having an epileptic seizure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a77a850-4d47-4c61-a88a-93cdfb15f68d",
+    "data": [
+      {
+        "text": "i am having Fit and/or epileptic seizure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a5392dfd-2cd0-469d-a898-415993182a22",
+    "data": [
+      {
+        "text": "having an epileptic seizure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4c9ef16b-0c6d-4acc-8510-71c766a1aeb6",
+    "data": [
+      {
+        "text": "having a Fit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8988083a-aacb-46e9-bd51-d310e1148de0",
+    "data": [
+      {
+        "text": "Fit and/or epileptic seizure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3ae755ad-b015-4bbb-bda9-f64f9c4fc9d5",
+    "data": [
+      {
+        "text": "collapsing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cc941e5-d8e7-4abf-9198-764b9451635f",
+    "data": [
+      {
+        "text": "i am collapsing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9062c3e4-6a6c-4d5b-9936-de434a5ddcba",
+    "data": [
+      {
+        "text": "collapsed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a40365d6-a4d8-446b-9102-aed550827952",
+    "data": [
+      {
+        "text": "my knee broke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bde278e4-7004-4e0e-8807-f15f382b48f9",
+    "data": [
+      {
+        "text": "my leg broke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16aedfad-6434-415c-a7c2-63b6e3aff7eb",
+    "data": [
+      {
+        "text": "my ankle broke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "80946b99-d550-43aa-82f2-a7b66605444d",
+    "data": [
+      {
+        "text": "my hand broke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "92b38837-e153-4b73-a5f6-e81b4cf7cfed",
+    "data": [
+      {
+        "text": "severe pain while urinating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4b9d4020-c851-4ec1-9a5f-52cac0e68618",
+    "data": [
+      {
+        "text": "i am having anaphylaxis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "12736a56-e193-4f19-b8ff-85f345c627ba",
+    "data": [
+      {
+        "text": "I am having a critical allergic reaction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ddaa6128-031d-476b-b4ce-689d73ccd966",
+    "data": [
+      {
+        "text": "critical allergic reaction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "36a859dc-1dfb-4b8d-9d7f-1665575a8624",
+    "data": [
+      {
+        "text": "I am having an asthma attack",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f57a0f4b-56da-4c2c-b88e-0c61d4445093",
+    "data": [
+      {
+        "text": "having an asthma attack",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "731426ae-c16a-4de5-99e2-61dbf561a2cb",
+    "data": [
+      {
+        "text": "having heavy Breathing difficulties",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6c25da4-41ae-48fb-b7f4-db85534b3636",
+    "data": [
+      {
+        "text": "having Breathing troubles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e1bf20b-5a81-4733-9008-a55813459d2d",
+    "data": [
+      {
+        "text": "having Breathing difficulties",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fb339e5d-202e-41c1-aa9f-315aeb722562",
+    "data": [
+      {
+        "text": "I am having Breathing difficulties",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70e17834-11fa-4634-8dcb-27b2f81ba563",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "house",
+        "alias": "location",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ca507e91-64cb-4dc4-9bd8-8419c5377814",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "location",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af2d26d8-9e58-4876-8489-f7b40095b9e1",
+    "data": [
+      {
+        "text": "location ",
+        "userDefined": false
+      },
+      {
+        "text": "Glasgow",
+        "alias": "location",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b050a506-0993-491e-99a0-75649ace2413",
+    "data": [
+      {
+        "text": "bleeding a lot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4be6774d-fc92-45e1-a73e-062d9f3f07f3",
+    "data": [
+      {
+        "text": "Severely bleeding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9a7b01ed-ff67-422a-a659-65ede163a44f",
+    "data": [
+      {
+        "text": "I am Bleeding severely",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f90db6f-da10-4c05-b722-a55e66cfce78",
+    "data": [
+      {
+        "text": "having",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " Bleeding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cddf8375-a09a-489c-b1cf-9f68e780a1cc",
+    "data": [
+      {
+        "text": "address is ",
+        "userDefined": false
+      },
+      {
+        "text": "Glassgow city center",
+        "alias": "location",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "982eb24b-72ab-4177-8250-fb0fd7af1581",
+    "data": [
+      {
+        "text": "location is ",
+        "userDefined": false
+      },
+      {
+        "text": "Glassgow city center",
+        "alias": "location",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aef37e10-eb82-4070-b414-009fb83006b1",
+    "data": [
+      {
+        "text": "address ",
+        "userDefined": false
+      },
+      {
+        "text": "Glassgow city center",
+        "alias": "location",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7504e486-e0e7-4f0b-8d6e-17241791cc6a",
+    "data": [
+      {
+        "text": "oh no accident",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f01f242-9d9d-4b68-af59-81f03c4eec2e",
+    "data": [
+      {
+        "text": "I met an accident",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b7ff07ff-1196-4530-87f1-7eb834d7942b",
+    "data": [
+      {
+        "text": "its an emergency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "36c8f7e9-30dd-445b-8c1c-54f9bab166d5",
+    "data": [
+      {
+        "text": "Someone is trying to kill me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c0492c3b-b7a7-4f56-98b0-8aa5b7ed6d53",
+    "data": [
+      {
+        "text": "I am dying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "22ee3bdf-0c36-4429-b612-767480c447d3",
+    "data": [
+      {
+        "text": "I am falling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "440643e4-85df-4831-91c2-867b0bf360d3",
+    "data": [
+      {
+        "text": "Call hospital",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

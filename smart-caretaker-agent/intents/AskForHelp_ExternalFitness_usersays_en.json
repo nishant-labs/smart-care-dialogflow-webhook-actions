@@ -1,0 +1,50 @@
+[
+  {
+    "id": "b1d663d5-35c0-41fa-b293-3d581bc0cf6c",
+    "data": [
+      {
+        "text": "breathing heavily",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "280df235-b5b6-4b10-bea1-ad98a400741e",
+    "data": [
+      {
+        "text": "It feels like I am breathing heavily",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "12c1d473-a78b-4ece-a3fd-ea3a676ab1b6",
+    "data": [
+      {
+        "text": "feeling anxious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25522c3e-972c-470d-861c-47ea98ed8c6e",
+    "data": [
+      {
+        "text": "I am feeling anxious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

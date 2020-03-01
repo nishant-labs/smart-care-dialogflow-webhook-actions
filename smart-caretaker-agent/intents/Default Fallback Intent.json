@@ -1,0 +1,44 @@
+{
+  "id": "4fa9ac81-52aa-4440-8d5f-070d42475d22",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "I didn\u0027t get that. We at Smart care are always enhancing our services, please use other services like asking for an ambulance.\nwe do suggest medicine for commonly occurring health issues"
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "I didn\u0027t get that. We at Smart care are always enhancing our services, please use other services like asking for an ambulance.\nwe do suggest medicine for commonly occurring health issues",
+          "ssml": "",
+          "displayText": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

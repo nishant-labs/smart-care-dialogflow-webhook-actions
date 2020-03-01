@@ -1,0 +1,26 @@
+[
+  {
+    "id": "17da65b3-4d85-415f-a07b-4a1c48b284b9",
+    "data": [
+      {
+        "text": "Not feeling well",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4cd8d9e2-b8d6-4627-901e-9d4127f4a96a",
+    "data": [
+      {
+        "text": "Need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

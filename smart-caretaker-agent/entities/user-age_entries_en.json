@@ -1,0 +1,18 @@
+[
+  {
+    "value": "\\d \\d",
+    "synonyms": []
+  },
+  {
+    "value": "(zero|one|two|three|four|five|six|seven|eight|nine) (zero|one|two|three|four|five|six|seven|eight|nine)",
+    "synonyms": []
+  },
+  {
+    "value": "N",
+    "synonyms": []
+  },
+  {
+    "value": "Nl",
+    "synonyms": []
+  }
+]

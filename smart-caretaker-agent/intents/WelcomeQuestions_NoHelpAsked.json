@@ -1,0 +1,96 @@
+{
+  "id": "a25ee532-3196-4383-ab0e-2306140222e0",
+  "name": "WelcomeQuestions_NoHelpAsked",
+  "auto": true,
+  "contexts": [
+    "welcome_questions"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "asking_for_help_general",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7be74e5b-02e2-4127-9b28-48afb6b39833",
+          "required": true,
+          "dataType": "@user-name",
+          "name": "fullName",
+          "value": "$fullName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is you name"
+            },
+            {
+              "lang": "en",
+              "value": "Need your name to help further"
+            },
+            {
+              "lang": "en",
+              "value": "In order to help you, I need your name"
+            },
+            {
+              "lang": "en",
+              "value": "Could you please provide you name before I proceed further"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d29b26f7-605b-40d4-ba39-88c693d67a57",
+          "required": true,
+          "dataType": "@sys.age",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How old are you?"
+            },
+            {
+              "lang": "en",
+              "value": "To provide you better service, I may need your age"
+            },
+            {
+              "lang": "en",
+              "value": "Please provide your age"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thanks $fullName , how can I help you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

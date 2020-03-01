@@ -1,0 +1,61 @@
+{
+  "id": "26fa77a2-fa26-4b8f-80c4-35d387af126a",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 14,
+          "platform": "telephony",
+          "lang": "en",
+          "condition": "",
+          "text": "Welcome to Smart care IVR system, please state your problem",
+          "ssml": ""
+        },
+        {
+          "type": 14,
+          "platform": "telephony",
+          "lang": "en",
+          "condition": "",
+          "text": "",
+          "ssml": "\u003cspeak\u003eOption 1, for any health issues.\u003cbreak time\u003d\"200ms\"/\u003eOption 2, For household emergencies.\u003cbreak time\u003d\"200ms\"/\u003eOption 3, Any general emergency. \u003cbreak strength\u003d\"weak\"/\u003e Option 4, for any medicine suggestions \u003c/speak\u003e"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Hello! Smart care is here to help you?",
+            "Good day! welcome to smart care",
+            "Greetings! welcome to smart care"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "TELEPHONY_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

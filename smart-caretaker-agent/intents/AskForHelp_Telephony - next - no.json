@@ -1,0 +1,44 @@
+{
+  "id": "385bdf12-9b05-441c-98a0-54ed159890df",
+  "parentId": "fad7a047-71d4-424c-84e6-ea47cf8f18ac",
+  "rootParentId": "25de3a13-6fe7-4c0c-a0f3-65f12b2f831f",
+  "name": "AskForHelp_Telephony - next - no",
+  "auto": true,
+  "contexts": [
+    "AskForHelp_Telephony-next-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AskForHelp_Telephony.AskForHelp_Telephony-next.AskForHelp_Telephony-next-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 14,
+          "platform": "telephony",
+          "lang": "en",
+          "condition": "",
+          "text": "Cool, thanks for being with us, have a great day.",
+          "ssml": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
