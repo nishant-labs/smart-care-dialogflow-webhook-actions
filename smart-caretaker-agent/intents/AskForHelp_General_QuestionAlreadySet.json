@@ -1,0 +1,33 @@
+{
+  "id": "5c15de74-a523-4eda-9e1f-af0625aca361",
+  "name": "AskForHelp_General_QuestionAlreadySet",
+  "auto": true,
+  "contexts": [
+    "asking_for_help_general"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "What happened #asking_for_help_general.fullName ? could you please elaborate more!!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

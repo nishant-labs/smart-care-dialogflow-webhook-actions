@@ -1,0 +1,99 @@
+{
+  "id": "e954ddef-1bb3-417a-bfbd-35deb23015e9",
+  "name": "WelcomeQuestions_HelpAsked",
+  "auto": true,
+  "contexts": [
+    "asking_for_help_general"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "61b0079a-82bb-41bf-a76d-cf04b1513881",
+          "required": true,
+          "dataType": "@user-name",
+          "name": "fullName",
+          "value": "$fullName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is you name"
+            },
+            {
+              "lang": "en",
+              "value": "Need your name to help further"
+            },
+            {
+              "lang": "en",
+              "value": "In order to help you, I need your name"
+            },
+            {
+              "lang": "en",
+              "value": "Could you please provide you name before I proceed further"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a1a72ed2-6470-4581-8c3f-20ee042e063c",
+          "required": true,
+          "dataType": "@sys.age",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How old are you?"
+            },
+            {
+              "lang": "en",
+              "value": "To provide you better service, I may need your age"
+            },
+            {
+              "lang": "en",
+              "value": "Please provide your age"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Thanks $fullName , Let me see what I can do",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

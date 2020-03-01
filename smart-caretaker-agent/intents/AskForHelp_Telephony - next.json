@@ -1,0 +1,65 @@
+{
+  "id": "fad7a047-71d4-424c-84e6-ea47cf8f18ac",
+  "parentId": "25de3a13-6fe7-4c0c-a0f3-65f12b2f831f",
+  "rootParentId": "25de3a13-6fe7-4c0c-a0f3-65f12b2f831f",
+  "name": "AskForHelp_Telephony - next",
+  "auto": true,
+  "contexts": [
+    "AskForHelp_Telephony-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AskForHelp_Telephony.AskForHelp_Telephony-next",
+      "affectedContexts": [
+        {
+          "name": "AskForHelp_Telephony-next-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5ef5ced2-ef1b-49ad-8abc-6b4699986ec6",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "problemName",
+          "value": "$problemName",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 14,
+          "platform": "telephony",
+          "lang": "en",
+          "condition": "",
+          "text": "",
+          "ssml": "\u003cspeak\u003eTo help with you with your $problemName . I would recommend you to take rest and take pain killers.\u003cbreak time\u003d\"1s\"/\u003e Is there anything I can help you with?\u003c/speak\u003e"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

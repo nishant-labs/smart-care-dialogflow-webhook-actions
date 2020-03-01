@@ -1,0 +1,74 @@
+[
+  {
+    "id": "de654e01-a985-4497-ac32-30c80fb8e037",
+    "data": [
+      {
+        "text": "Please call fire brigade",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "925365c0-8035-4969-b8cd-d53c68da3ea5",
+    "data": [
+      {
+        "text": "There is gas leakage in my house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b40d431c-eb96-4bc3-b0b0-3d2781b5bf90",
+    "data": [
+      {
+        "text": "call fire brigade",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "158f5551-9b8d-41f5-bf51-c064dae7143e",
+    "data": [
+      {
+        "text": "gas leakage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dcb99d4a-e3ac-42ce-9c27-d34e7bc300dd",
+    "data": [
+      {
+        "text": "I got fire in my house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4412fcad-4e88-4d69-9ae3-d281b2408b70",
+    "data": [
+      {
+        "text": "Gas leak",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

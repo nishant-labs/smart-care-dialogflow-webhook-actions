@@ -1,0 +1,46 @@
+{
+  "id": "e28fdcf8-2d71-40a0-9737-2a333879edda",
+  "parentId": "fad7a047-71d4-424c-84e6-ea47cf8f18ac",
+  "rootParentId": "25de3a13-6fe7-4c0c-a0f3-65f12b2f831f",
+  "name": "AskForHelp_Telephony - next - yes",
+  "auto": true,
+  "contexts": [
+    "AskForHelp_Telephony-next-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AskForHelp_Telephony.AskForHelp_Telephony-next.AskForHelp_Telephony-next-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 14,
+          "platform": "telephony",
+          "lang": "en",
+          "condition": "",
+          "text": "Ok, What can I help you with?",
+          "ssml": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

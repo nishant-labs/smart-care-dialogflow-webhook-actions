@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1abd6391-2c6e-461f-80a6-e3ca64f5318f",
+    "data": [
+      {
+        "text": "body pain",
+        "alias": "problemName",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56cf2fc0-4d43-47cd-b418-c5edc48d8b9f",
+    "data": [
+      {
+        "text": "I have ",
+        "userDefined": false
+      },
+      {
+        "text": "body pain",
+        "alias": "problemName",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "06888635-5481-458f-b11f-1e0e1d216c92",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "body in pain",
+        "alias": "problemName",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eda34fc3-fabe-4811-936e-829ac38d22e7",
+    "data": [
+      {
+        "text": "having ",
+        "userDefined": false
+      },
+      {
+        "text": "back pain",
+        "alias": "problemName",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b76d83f-feb5-4522-9a1d-75b18749567a",
+    "data": [
+      {
+        "text": "I am having ",
+        "userDefined": false
+      },
+      {
+        "text": "headache",
+        "alias": "problemName",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bad4e71f-5517-4965-af85-a2bca9516ea8",
+    "data": [
+      {
+        "text": "Having ",
+        "userDefined": false
+      },
+      {
+        "text": "stomatch pain",
+        "alias": "problemName",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
